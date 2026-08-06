@@ -1,4 +1,4 @@
-// C++ program to find the maximum element in an array
+// C++ program to find the minimum element in an array
 #include <iostream>
 #include <string>
 using namespace std;
@@ -8,15 +8,15 @@ int main()
     system("cls");
     int arr[5] = {10, 30, 50, 70, 90};
 
-    int max = arr[0];
+    int min = arr[0];
     for (int i = 1; i < 5; i++)
     {
-        if (arr[i] > max)
+        if (arr[i] < min)
         {
-            max = arr[i];
+            min = arr[i];
         }
     }
 
-    cout << "Maximum element array: " << max << endl;
+    cout << "Minimum element array: " << min << endl;
     return 0;
 }

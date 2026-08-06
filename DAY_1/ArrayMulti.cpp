@@ -1,3 +1,4 @@
+// C++ program to find the product of all array elements
 #include <iostream>
 #include <string>
 using namespace std;
