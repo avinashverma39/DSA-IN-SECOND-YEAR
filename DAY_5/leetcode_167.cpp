@@ -1,5 +1,17 @@
 
+#include<iostream>
+#include<string>
+#include<vector>
+using namespace std;
 
+int main(){
+ system("cls");
+    
+   int arr[] = {2,3,5,6,7,8,11,13};
+   
+    return 0;
+
+}
 class Solution
 {
 public:
