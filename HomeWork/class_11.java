@@ -5,7 +5,6 @@ class class_11 {
     public static void main(String args[]){
       
     }
-
     static int Max_Element(int a[]){
         int max = a[0];
         for(int i = 1 ; i < a.length; i++){
@@ -32,6 +31,7 @@ class class_11 {
         }
         return max;
     }
+
 
     static int Count_even(int a[]){
         int count = 0;

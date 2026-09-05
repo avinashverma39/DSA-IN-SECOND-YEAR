@@ -1,4 +1,4 @@
-@SuppressWarnings("unused")
+// @SuppressWarnings("unused")
 class class_12 
 {
     public static void main(String args[]){
@@ -10,7 +10,7 @@ class class_12
     }
 }
 
-@SuppressWarnings("unused")
+// @SuppressWarnings("unused")
 class Marks_analysis
 {
     int Max_marks(int a[]){
@@ -41,7 +41,7 @@ class Marks_analysis
 
 }
 
-@SuppressWarnings("unused")
+// // @SuppressWarnings("unused")
 class Price_analysis
 {
     int Max_price(int a[]){
