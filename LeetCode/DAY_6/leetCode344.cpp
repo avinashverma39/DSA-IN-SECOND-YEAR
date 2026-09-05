@@ -8,6 +8,7 @@ int main(){
     
  string str = "Hello World";
  vector<char> s(str.begin(), str.end());
+ swap(s[0], s[s.size() - 1]);
     return 0;
 }
 
