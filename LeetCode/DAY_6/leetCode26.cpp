@@ -8,7 +8,6 @@ int main(){
     
     return 0;
 }
-
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -23,5 +22,4 @@ public:
         }
         return rev;
     }
-
 };
