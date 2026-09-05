@@ -6,8 +6,11 @@ using namespace std;
 int main(){
  system("cls");
     
+ string str = "Hello World";
+ vector<char> s(str.begin(), str.end());
     return 0;
 }
+
 class Solution {
 public:
     void reverseString(vector<char>& s) {
