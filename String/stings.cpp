@@ -61,5 +61,10 @@ int main()
     cout << endl;
     str6.insert(3, "f");
     cout << "Insert element in any positin of sting: " << str6;
+
+    cout << endl;
+    str6.erase(3,1);
+    cout << "Erase Element in string: " << str6;
+
     return 0;
 }
