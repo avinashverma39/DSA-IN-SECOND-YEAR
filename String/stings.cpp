@@ -47,24 +47,43 @@ int main()
     //      string str6 =  str4 + str5;
     //    cout<<" Concatenition "<<str6;
 
-    string str6 = "Avinash";
+    // string str6 = "Avinash";
 
-    str6.push_back('g');
+    // str6.push_back('g');
 
-    cout << "Add Char in last index:" << str6;
+    // cout << "Add Char in last index:" << str6;
 
-    cout << endl;
-    str6.pop_back();
+    // cout << endl;
+    // str6.pop_back();
 
-    cout << "remove last element :" << str6;
+    // cout << "remove last element :" << str6;
 
-    cout << endl;
-    str6.insert(3, "f");
-    cout << "Insert element in any positin of sting: " << str6;
+    // cout << endl;
+    // str6.insert(3, "f");
+    // cout << "Insert element in any positin of sting: " << str6;
 
-    cout << endl;
-    str6.erase(3,1);
-    cout << "Erase Element in string: " << str6;
+    // cout << endl;
+    // str6.erase(3,1);
+    // cout << "Erase Element in string: " << str6;
 
+    // -----------------------------------------string length using pointer--------------------------------------------
+
+    // string str7;
+    // string *ptr;
+    // cout << "Enter string : ";
+    // cin >> str7;
+    // ptr = &str7;
+
+    // cout << "String is: " << *ptr << endl;
+    // cout << "Length of string is: " << ptr->length() << endl;
+
+    // -------------------------new and delete key word ---------------------------------------------
+
+    int *nptr;
+
+    nptr = new int(6);
+
+    cout << *nptr << endl
+         << nptr;
     return 0;
 }
